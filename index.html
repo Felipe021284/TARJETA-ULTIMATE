@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TARJETA REDES SOCIALES V6</title>
+        <title>TARJETA ULTIMATE</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible"content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
 <style>
 /*ESTILO DE FONDO ANIMADO*/
 :root {
-  --gradient: linear-gradient(-45deg,white, green,black,green,white );
+  --gradient: linear-gradient(-45deg,white, purple,black,purple,white );
 }
 
 
@@ -38,7 +38,7 @@ body {
 .card {
     position: relative;
     width: 300px;
-    height: 400px;
+    height: 550px;
     border-radius: 5px;
     overflow: hidden;
     transition: .5s;
@@ -127,7 +127,7 @@ Img:hover {
     
 background-image: var(--gradiente);
   
-    --gradiente: linear-gradient(to top,green ,white
+    --gradiente: linear-gradient(to top,purple,white
     );
      box-shadow: 0 5px 10px rgba(0,0,0,1);
     transform: translateY(-20px);
@@ -138,19 +138,19 @@ background-image: var(--gradiente);
 
 /*contenedor del texto*/
 .card .description {
-    height: 200px;
+    height: 220px;
     padding: 40px 20px 20px 20px;
     border-bottom: white solid 1px ;
     text-align: center;
 }
 
-.card .description h2,h4,p{
+.card .description h2,h4,p,i{
 animation: animate 10s infinite linear;
 }
 @keyframes animate
 {
     0%,100%{
-        color: lawngreen;
+        color:aqua;
     }
     25%{
         color: deeppink;
@@ -176,9 +176,8 @@ animation: animate 10s infinite linear;
     font-size:25px;
     
 }
-i{
-    color:white;
-    }
+
+    
 
 
 .card .contact a {
@@ -195,11 +194,64 @@ i{
     
 background-image: var(--gradiente);
   
-    --gradiente: linear-gradient(to top,green ,black
+    --gradiente: linear-gradient(to top,purple,black
     );
      box-shadow: 0 5px 5px rgba(0,0,0,1);
     transform: translateY(-10px);
 }
+
+/*CATALOGO*/
+
+.CATALOGO{
+  position: relative;
+  left:65px;
+ display: center;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 150px;
+  height:40px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px white;
+                  0px 0px 10px 5px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
 
 
 </style>
@@ -216,15 +268,18 @@ background-image: var(--gradiente);
         
         <div class="description">
             <h2 class="text-animation">TU NOMBRE</h2>
+            <H4>
+                TARJETA REDES SOCIALES V4
+            </H4>
             <H4>TU PUESTO O TU NEGOCIO</H4>
-            <p>BREVE DESCRIPCIÓN DE LO QUE HACES <br />PRECIO $1350</p>
+            <p>BREVE DESCRIPCIÓN DE LO QUE HACES <br />PRECIO $1000</p>
         </div>
         
         <div class="contact"
         >
         <a href="tel: 3312381872"><i class="fa fa-phone"></i></a>
 
-        <a href="https://wa.me/message/2HRXBKVKB7UGJ1
+        <a href="https://wa.me/qr/K3HPFDZLSFINP1
         "><i class="fa fa-whatsapp"></i></a>
         
         <a href="https://www.facebook.com/Digital-World-100310082725612/
@@ -245,13 +300,35 @@ background-image: var(--gradiente);
 "><i class="fa fa-street-view
 "></i></a>
 
-        
+
+
         
         
         
     </div>
+    
+    <audio controls>
+    <source src="
+    https://www.dropbox.com/s/8f38jxyjktta8jm/Ece%20Mumay%20-%20Yan%C4%B1ma%20Yan%C4%B1ma%20%28Extended%20Version%29%28MP3_320K%29.mp3?dl=0
+    
+    " type="audio/mpeg">
+    <source src="
+    https://dl.dropbox.com/s/8f38jxyjktta8jm/Ece%20Mumay%20-%20Yan%C4%B1ma%20Yan%C4%B1ma%20%28Extended%20Version%29%28MP3_320K%29.mp3?dl=0
+    
+    " type="audio/ogg">
+
+</audio>
+
+<div class="CATALOGO">
+
+ <a 
+      href="https://felipe021284.github.io/CATALOGO-V1/
+      "><i class="fa fa-hand-o-right
+      " aria-hidden="true"> CATALOGO</i>
+</a>
+
+</div>
+        
         
     </body>
-</html>
-body>
 </html>
